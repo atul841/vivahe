@@ -517,7 +517,207 @@ It is cultivated through shared values, comparable life perspectives, cultural u
     </div>
   </section>
   <!-- footer -->
-   <!-- footer -->
+   <!-- footer --> 
+
+   <!-- ===== Private Consultation Section ===== -->
+<section class="consultation-section">
+  <div class="container">
+
+    <div class="consultation-header">
+      <h2>Request a Private Consultation</h2>
+      <p>All inquiries are reviewed personally. Engagements are limited.</p>
+    </div>
+
+    <form>
+
+      <!-- 1 -->
+      <div class="form-group">
+        <label for="fullname">1. How may we address you?</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Full Name" required>
+      </div>
+
+      <!-- 2 -->
+      <div class="form-group">
+        <label for="location">2. Where are you currently based?</label>
+        <input type="text" id="location" name="location" placeholder="City & Country" required>
+      </div>
+
+      <!-- 3 -->
+      <div class="form-group">
+        <p class="question-title">3. Who is this consultation for?</p>
+
+        <label>
+          <input type="radio" name="consultation_for" value="Self"> Self
+        </label>
+
+        <label>
+          <input type="radio" name="consultation_for" value="Son/Daughter"> Son / Daughter
+        </label>
+
+        <label>
+          <input type="radio" name="consultation_for" value="Family Member"> Family Member
+        </label>
+
+        <label>
+          <input type="radio" name="consultation_for" value="Client"> Client (on behalf of)
+        </label>
+      </div>
+
+      <!-- 4 -->
+      <div class="form-group">
+        <p class="question-title">4. Which best describes your background?</p>
+
+        <label>
+          <input type="radio" name="background" value="Business"> Business / Entrepreneurial Family
+        </label>
+
+        <label>
+          <input type="radio" name="background" value="Professional"> Senior Professional / Leadership Role
+        </label>
+
+        <label>
+          <input type="radio" name="background" value="High Profile"> High-Profile / Public Figure
+        </label>
+
+        <label>
+          <input type="radio" name="background" value="International"> International / NRI
+        </label>
+
+        <label>
+          <input type="radio" name="background" value="Other"> Other
+        </label>
+      </div>
+
+      <!-- 5 -->
+      <div class="form-group">
+        <p class="question-title">5. What are you seeking at this stage?</p>
+
+        <label>
+          <input type="checkbox" name="seeking" value="Curated"> Discreet, curated introductions
+        </label>
+
+        <label>
+          <input type="checkbox" name="seeking" value="Alignment"> Long-term alignment and compatibility
+        </label>
+
+        <label>
+          <input type="checkbox" name="seeking" value="Family"> Family-aligned matchmaking
+        </label>
+
+        <label>
+          <input type="checkbox" name="seeking" value="International"> International / cross-border considerations
+        </label>
+
+        <label>
+          <input type="checkbox" name="seeking" value="Guidance"> Confidential guidance
+        </label>
+      </div>
+
+      <!-- 6 -->
+      <div class="form-group">
+        <p class="question-title">6. How would you prefer we proceed?</p>
+
+        <label>
+          <input type="radio" name="proceed" value="Call"> A private call
+        </label>
+
+        <label>
+          <input type="radio" name="proceed" value="Meeting"> A confidential in-person meeting
+        </label>
+
+        <label>
+          <input type="radio" name="proceed" value="Email"> Initial correspondence by email
+        </label>
+      </div>
+
+      <div class="form-submit">
+        <button type="submit">Submit Request</button>
+      </div>
+
+    </form>
+
+  </div>
+</section>
+<style>
+  /* ===== Consultation Section Styling Only ===== */
+
+.consultation-section {
+  padding: 100px 0;
+  background: #f9f6f2;
+}
+
+.consultation-section form {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 50px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+}
+
+/* Header */
+.consultation-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.consultation-header h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.consultation-header p {
+  color: #777;
+}
+
+/* Labels */
+.consultation-section label,
+.consultation-section .question-title {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  color: #333;
+}
+
+/* Inputs */
+.consultation-section input[type="text"] {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+/* Focus */
+.consultation-section input:focus {
+  border-color: #b88a44;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(184, 138, 68, 0.15);
+}
+
+/* Radio & Checkbox */
+.consultation-section input[type="radio"],
+.consultation-section input[type="checkbox"] {
+  margin-right: 8px;
+  accent-color: #b88a44;
+}
+
+/* Submit Button */
+.consultation-section button {
+  margin-top: 40px;
+  background: #b88a44;
+  color: #fff;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.consultation-section button:hover {
+  background: #8d6a34;
+}
+</style>
 
  <footer class="pt-12 pb-0 bg-light">
     <div class="container">
